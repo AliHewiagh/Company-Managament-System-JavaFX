@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.paint.RadialGradient?>
+<?import javafx.scene.paint.Stop?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="365.0" prefWidth="661.0" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cd.FXMLDocumentController">
+   <children>
+      <Button fx:id="login" layoutX="192.0" layoutY="169.0" mnemonicParsing="false" onAction="#enterCP" prefHeight="27.0" prefWidth="94.0" text="Login" />
+      <Label layoutX="55.0" layoutY="61.0" prefHeight="17.0" prefWidth="122.0" text="Username :" />
+      <Label layoutX="55.0" layoutY="122.0" prefHeight="17.0" prefWidth="122.0" text="Password :" />
+      <PasswordField fx:id="pass" layoutX="194.0" layoutY="117.0" />
+      <TextField fx:id="username" layoutX="194.0" layoutY="56.0" prefHeight="27.0" prefWidth="167.0" />
+      <Label fx:id="conndb" layoutX="192.0" layoutY="296.0" prefHeight="17.0" prefWidth="94.0" />
+      <Button fx:id="check2" layoutX="40.0" layoutY="291.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="27.0" prefWidth="115.0" text="Check DB" />
+      <ImageView fitHeight="343.0" fitWidth="246.0" layoutX="407.0" layoutY="45.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@ppl.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="check" layoutX="142.0" layoutY="113.0" prefHeight="17.0" prefWidth="196.0" text="wrong username or password" textFill="#d70909" visible="false" />
+      <Label layoutX="192.0" layoutY="18.0" prefHeight="36.0" prefWidth="78.0" text="LOGIN">
+         <textFill>
+            <RadialGradient centerX="0.5337078651685393" centerY="0.5" radius="0.5">
+               <stops>
+                  <Stop color="#dd1515" />
+                  <Stop color="#dd1515" offset="1.0" />
+               </stops>
+            </RadialGradient>
+         </textFill>
+      </Label>
+   </children>
+</Pane>

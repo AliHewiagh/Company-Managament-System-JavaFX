@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="415.0" prefWidth="615.0" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cd.MainController">
+   <children>
+      <Button fx:id="employee" layoutX="94.0" layoutY="65.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="43.0" prefWidth="123.0" text="Empolyee" />
+      <Button fx:id="machines" layoutX="94.0" layoutY="129.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="43.0" prefWidth="123.0" text="Products" />
+      <Button fx:id="products" layoutX="94.0" layoutY="186.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="43.0" prefWidth="123.0" text="Machines" />
+      <Button fx:id="customers" onAction="#handleButtonAction"  layoutX="94.0" layoutY="246.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="123.0" text="Customers" />
+      <Button fx:id="expenses" layoutX="94.0" layoutY="303.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="123.0" text="Expenses" />
+      <Button fx:id="employee1" layoutX="402.0" layoutY="243.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="43.0" prefWidth="144.0" text="Set New Password" />
+      <Button fx:id="employee11" layoutX="403.0" layoutY="303.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="37.0" prefWidth="144.0" text="Exit" />
+      <Button fx:id="PDF" layoutX="403.0" layoutY="340.0" mnemonicParsing="false" onAction="#toPDF" prefHeight="37.0" prefWidth="144.0" text="PDF" />
+   </children>
+</Pane>

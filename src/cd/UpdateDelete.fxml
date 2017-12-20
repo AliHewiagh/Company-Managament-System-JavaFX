@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="504.0" prefWidth="825.0" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cd.UpdateDeleteController">
+   <children>
+      <Label layoutX="451.0" layoutY="39.0" prefHeight="32.0" prefWidth="223.0" text="Update/Delete Employee" />
+      <Label layoutX="59.0" layoutY="87.0" prefHeight="32.0" prefWidth="123.0" text="ID" />
+      <Label layoutX="59.0" layoutY="147.0" prefHeight="32.0" prefWidth="123.0" text="First Name" />
+      <Label layoutX="59.0" layoutY="208.0" prefHeight="32.0" prefWidth="123.0" text="Last Name" />
+      <Label layoutX="59.0" layoutY="276.0" prefHeight="32.0" prefWidth="123.0" text="Nationality" />
+      <Label layoutX="59.0" layoutY="337.0" prefHeight="32.0" prefWidth="123.0" text="Salary" />
+      <Label layoutX="59.0" layoutY="401.0" prefHeight="32.0" prefWidth="123.0" text="Date Of Birth" />
+      <TextField fx:id="id1" layoutX="195.0" layoutY="90.0" />
+      <TextField fx:id="fname1" layoutX="195.0" layoutY="150.0" />
+      <TextField fx:id="lname1" layoutX="195.0" layoutY="211.0" />
+      <TextField fx:id="nationality1" layoutX="195.0" layoutY="279.0" />
+      <TextField fx:id="salary1" layoutX="195.0" layoutY="340.0" />
+      <Button fx:id="insert1" layoutX="479.0" layoutY="328.0" mnemonicParsing="false" onAction="#UpdateEm" prefHeight="39.0" prefWidth="132.0" text="Update" />
+      <Button fx:id="insert11" layoutX="679.0" layoutY="328.0" mnemonicParsing="false" onAction="#DeleteEm" prefHeight="39.0" prefWidth="132.0" text="Delete" />
+      <Button fx:id="find" layoutX="375.0" layoutY="90.0" mnemonicParsing="false" onAction="#getEmployeeById" text="Find" />
+      <TextField fx:id="dateofbirth1" layoutX="195.0" layoutY="404.0" />
+      <Button fx:id="insert12" layoutX="479.0" layoutY="387.0" mnemonicParsing="false" onAction="#BackEm" prefHeight="39.0" prefWidth="132.0" text="Back" />
+      <Button fx:id="insert111" layoutX="679.0" layoutY="387.0" mnemonicParsing="false" onAction="#Exit" prefHeight="39.0" prefWidth="132.0" text="Exit" />
+   </children>
+</Pane>
